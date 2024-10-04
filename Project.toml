@@ -3,6 +3,11 @@ uuid = "0fb8f303-1e1b-4842-b101-8fe792764f11"
 authors = ["Lucas Hermann"]
 version = "1.0.0-DEV"
 
+[deps]
+KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
 [compat]
 julia = "1.6.7"
 
