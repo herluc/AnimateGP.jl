@@ -4,6 +4,8 @@ using LinearAlgebra
 using KernelFunctions
 
 export compute_frames
+export loop_frames_2d
+include("viewers.jl")
 
 # Write your package code here.
 function sample_standard_normal_frames(d,n)
@@ -39,7 +41,6 @@ end #function
 
 function compute_frame(L, mean_vec, standards, i)
     c = mean_vec + L'*standards[:,i]
-
     return c
 end #function
 
